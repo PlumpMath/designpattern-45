@@ -35,7 +35,7 @@ class Circle extends Shape {
 	}
 
 	public void draw() {
-		this.drawApi.draw(x, y, radius);
+		this.drawApi.drawCircle(x, y, radius);
 	}
 }
 
